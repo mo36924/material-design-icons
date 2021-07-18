@@ -1,0 +1,10 @@
+export { default as codepointsMaterialIconsRegular } from "./codepoints/MaterialIcons-Regular";
+export { default as codepointsMaterialIconsOutlinedRegular } from "./codepoints/MaterialIconsOutlined-Regular";
+export { default as codepointsMaterialIconsRoundRegular } from "./codepoints/MaterialIconsRound-Regular";
+export { default as codepointsMaterialIconsSharpRegular } from "./codepoints/MaterialIconsSharp-Regular";
+export { default as codepointsMaterialIconsTwoToneRegular } from "./codepoints/MaterialIconsTwoTone-Regular";
+export { default as ligaturesMaterialIconsRegular } from "./ligatures/MaterialIcons-Regular";
+export { default as ligaturesMaterialIconsOutlinedRegular } from "./ligatures/MaterialIconsOutlined-Regular";
+export { default as ligaturesMaterialIconsRoundRegular } from "./ligatures/MaterialIconsRound-Regular";
+export { default as ligaturesMaterialIconsSharpRegular } from "./ligatures/MaterialIconsSharp-Regular";
+export { default as ligaturesMaterialIconsTwoToneRegular } from "./ligatures/MaterialIconsTwoTone-Regular";

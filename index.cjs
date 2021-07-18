@@ -1,0 +1,11 @@
+"use strict";
+exports.codepointsMaterialIconsRegular = require("./codepoints/MaterialIcons-Regular.cjs");
+exports.codepointsMaterialIconsOutlinedRegular = require("./codepoints/MaterialIconsOutlined-Regular.cjs");
+exports.codepointsMaterialIconsRoundRegular = require("./codepoints/MaterialIconsRound-Regular.cjs");
+exports.codepointsMaterialIconsSharpRegular = require("./codepoints/MaterialIconsSharp-Regular.cjs");
+exports.codepointsMaterialIconsTwoToneRegular = require("./codepoints/MaterialIconsTwoTone-Regular.cjs");
+exports.ligaturesMaterialIconsRegular = require("./ligatures/MaterialIcons-Regular.cjs");
+exports.ligaturesMaterialIconsOutlinedRegular = require("./ligatures/MaterialIconsOutlined-Regular.cjs");
+exports.ligaturesMaterialIconsRoundRegular = require("./ligatures/MaterialIconsRound-Regular.cjs");
+exports.ligaturesMaterialIconsSharpRegular = require("./ligatures/MaterialIconsSharp-Regular.cjs");
+exports.ligaturesMaterialIconsTwoToneRegular = require("./ligatures/MaterialIconsTwoTone-Regular.cjs");

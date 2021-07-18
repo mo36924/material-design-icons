@@ -1,0 +1,116 @@
+{
+  "name": "@mo36924/material-design-icons",
+  "version": "4.0.0",
+  "description": "google/material-design-icons",
+  "keywords": [],
+  "homepage": "https://github.com/mo36924/material-design-icons#readme",
+  "bugs": {
+    "url": "https://github.com/mo36924/material-design-icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mo36924/material-design-icons.git"
+  },
+  "license": "Apache-2.0",
+  "author": "",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs",
+      "default": "./index.js"
+    },
+    "./codepoints/MaterialIcons-Regular": {
+      "import": "./codepoints/MaterialIcons-Regular.js",
+      "require": "./codepoints/MaterialIcons-Regular.cjs",
+      "default": "./codepoints/MaterialIcons-Regular.js"
+    },
+    "./codepoints/MaterialIconsOutlined-Regular": {
+      "import": "./codepoints/MaterialIconsOutlined-Regular.js",
+      "require": "./codepoints/MaterialIconsOutlined-Regular.cjs",
+      "default": "./codepoints/MaterialIconsOutlined-Regular.js"
+    },
+    "./codepoints/MaterialIconsRound-Regular": {
+      "import": "./codepoints/MaterialIconsRound-Regular.js",
+      "require": "./codepoints/MaterialIconsRound-Regular.cjs",
+      "default": "./codepoints/MaterialIconsRound-Regular.js"
+    },
+    "./codepoints/MaterialIconsSharp-Regular": {
+      "import": "./codepoints/MaterialIconsSharp-Regular.js",
+      "require": "./codepoints/MaterialIconsSharp-Regular.cjs",
+      "default": "./codepoints/MaterialIconsSharp-Regular.js"
+    },
+    "./codepoints/MaterialIconsTwoTone-Regular": {
+      "import": "./codepoints/MaterialIconsTwoTone-Regular.js",
+      "require": "./codepoints/MaterialIconsTwoTone-Regular.cjs",
+      "default": "./codepoints/MaterialIconsTwoTone-Regular.js"
+    },
+    "./ligatures/MaterialIcons-Regular": {
+      "import": "./ligatures/MaterialIcons-Regular.js",
+      "require": "./ligatures/MaterialIcons-Regular.cjs",
+      "default": "./ligatures/MaterialIcons-Regular.js"
+    },
+    "./ligatures/MaterialIconsOutlined-Regular": {
+      "import": "./ligatures/MaterialIconsOutlined-Regular.js",
+      "require": "./ligatures/MaterialIconsOutlined-Regular.cjs",
+      "default": "./ligatures/MaterialIconsOutlined-Regular.js"
+    },
+    "./ligatures/MaterialIconsRound-Regular": {
+      "import": "./ligatures/MaterialIconsRound-Regular.js",
+      "require": "./ligatures/MaterialIconsRound-Regular.cjs",
+      "default": "./ligatures/MaterialIconsRound-Regular.js"
+    },
+    "./ligatures/MaterialIconsSharp-Regular": {
+      "import": "./ligatures/MaterialIconsSharp-Regular.js",
+      "require": "./ligatures/MaterialIconsSharp-Regular.cjs",
+      "default": "./ligatures/MaterialIconsSharp-Regular.js"
+    },
+    "./ligatures/MaterialIconsTwoTone-Regular": {
+      "import": "./ligatures/MaterialIconsTwoTone-Regular.js",
+      "require": "./ligatures/MaterialIconsTwoTone-Regular.cjs",
+      "default": "./ligatures/MaterialIconsTwoTone-Regular.js"
+    }
+  },
+  "main": "./index.cjs",
+  "module": "./index.js",
+  "files": [
+    "codepoints",
+    "font",
+    "ligatures",
+    "index.cjs",
+    "index.d.ts",
+    "index.js"
+  ],
+  "scripts": {
+    "build": "run-s clean build:* format",
+    "build:docker-build": "docker build -t material-design-icons .",
+    "build:docker-run": "docker run --rm -v $PWD:/material-design-icons material-design-icons",
+    "build:build-js": "node --loader ts-node/esm ./build.ts",
+    "clean": "del codepoints font ligatures",
+    "format": "run-s format:*",
+    "format:sort-package-json": "sort-package-json",
+    "format:prettier": "prettier --write .",
+    "test": "jest"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "trailingComma": "all"
+  },
+  "jest": {
+    "preset": "ts-jest/presets/js-with-ts-esm"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.3",
+    "del-cli": "^4.0.1",
+    "jest": "^27.0.6",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.3.2",
+    "sort-package-json": "^1.50.0",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
