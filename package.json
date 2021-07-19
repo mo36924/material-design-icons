@@ -1,6 +1,6 @@
 {
   "name": "@mo36924/material-design-icons",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "google/material-design-icons",
   "keywords": [],
   "homepage": "https://github.com/mo36924/material-design-icons#readme",
@@ -20,55 +20,130 @@
       "require": "./index.cjs",
       "default": "./index.js"
     },
-    "./codepoints/MaterialIcons-Regular": {
-      "import": "./codepoints/MaterialIcons-Regular.js",
-      "require": "./codepoints/MaterialIcons-Regular.cjs",
-      "default": "./codepoints/MaterialIcons-Regular.js"
+    "./materialIconsOutlinedRegularCodepoints": {
+      "import": "./materialIconsOutlinedRegularCodepoints.js",
+      "require": "./materialIconsOutlinedRegularCodepoints.cjs",
+      "default": "./materialIconsOutlinedRegularCodepoints.js"
     },
-    "./codepoints/MaterialIconsOutlined-Regular": {
-      "import": "./codepoints/MaterialIconsOutlined-Regular.js",
-      "require": "./codepoints/MaterialIconsOutlined-Regular.cjs",
-      "default": "./codepoints/MaterialIconsOutlined-Regular.js"
+    "./materialIconsOutlinedRegularLigatures": {
+      "import": "./materialIconsOutlinedRegularLigatures.js",
+      "require": "./materialIconsOutlinedRegularLigatures.cjs",
+      "default": "./materialIconsOutlinedRegularLigatures.js"
     },
-    "./codepoints/MaterialIconsRound-Regular": {
-      "import": "./codepoints/MaterialIconsRound-Regular.js",
-      "require": "./codepoints/MaterialIconsRound-Regular.cjs",
-      "default": "./codepoints/MaterialIconsRound-Regular.js"
+    "./materialIconsOutlinedRegularOtf": {
+      "import": "./materialIconsOutlinedRegularOtf.js",
+      "require": "./materialIconsOutlinedRegularOtf.cjs",
+      "default": "./materialIconsOutlinedRegularOtf.js"
     },
-    "./codepoints/MaterialIconsSharp-Regular": {
-      "import": "./codepoints/MaterialIconsSharp-Regular.js",
-      "require": "./codepoints/MaterialIconsSharp-Regular.cjs",
-      "default": "./codepoints/MaterialIconsSharp-Regular.js"
+    "./materialIconsOutlinedRegularWoff": {
+      "import": "./materialIconsOutlinedRegularWoff.js",
+      "require": "./materialIconsOutlinedRegularWoff.cjs",
+      "default": "./materialIconsOutlinedRegularWoff.js"
     },
-    "./codepoints/MaterialIconsTwoTone-Regular": {
-      "import": "./codepoints/MaterialIconsTwoTone-Regular.js",
-      "require": "./codepoints/MaterialIconsTwoTone-Regular.cjs",
-      "default": "./codepoints/MaterialIconsTwoTone-Regular.js"
+    "./materialIconsOutlinedRegularWoff2": {
+      "import": "./materialIconsOutlinedRegularWoff2.js",
+      "require": "./materialIconsOutlinedRegularWoff2.cjs",
+      "default": "./materialIconsOutlinedRegularWoff2.js"
     },
-    "./ligatures/MaterialIcons-Regular": {
-      "import": "./ligatures/MaterialIcons-Regular.js",
-      "require": "./ligatures/MaterialIcons-Regular.cjs",
-      "default": "./ligatures/MaterialIcons-Regular.js"
+    "./materialIconsRegularCodepoints": {
+      "import": "./materialIconsRegularCodepoints.js",
+      "require": "./materialIconsRegularCodepoints.cjs",
+      "default": "./materialIconsRegularCodepoints.js"
     },
-    "./ligatures/MaterialIconsOutlined-Regular": {
-      "import": "./ligatures/MaterialIconsOutlined-Regular.js",
-      "require": "./ligatures/MaterialIconsOutlined-Regular.cjs",
-      "default": "./ligatures/MaterialIconsOutlined-Regular.js"
+    "./materialIconsRegularLigatures": {
+      "import": "./materialIconsRegularLigatures.js",
+      "require": "./materialIconsRegularLigatures.cjs",
+      "default": "./materialIconsRegularLigatures.js"
     },
-    "./ligatures/MaterialIconsRound-Regular": {
-      "import": "./ligatures/MaterialIconsRound-Regular.js",
-      "require": "./ligatures/MaterialIconsRound-Regular.cjs",
-      "default": "./ligatures/MaterialIconsRound-Regular.js"
+    "./materialIconsRegularTtf": {
+      "import": "./materialIconsRegularTtf.js",
+      "require": "./materialIconsRegularTtf.cjs",
+      "default": "./materialIconsRegularTtf.js"
     },
-    "./ligatures/MaterialIconsSharp-Regular": {
-      "import": "./ligatures/MaterialIconsSharp-Regular.js",
-      "require": "./ligatures/MaterialIconsSharp-Regular.cjs",
-      "default": "./ligatures/MaterialIconsSharp-Regular.js"
+    "./materialIconsRegularWoff": {
+      "import": "./materialIconsRegularWoff.js",
+      "require": "./materialIconsRegularWoff.cjs",
+      "default": "./materialIconsRegularWoff.js"
     },
-    "./ligatures/MaterialIconsTwoTone-Regular": {
-      "import": "./ligatures/MaterialIconsTwoTone-Regular.js",
-      "require": "./ligatures/MaterialIconsTwoTone-Regular.cjs",
-      "default": "./ligatures/MaterialIconsTwoTone-Regular.js"
+    "./materialIconsRegularWoff2": {
+      "import": "./materialIconsRegularWoff2.js",
+      "require": "./materialIconsRegularWoff2.cjs",
+      "default": "./materialIconsRegularWoff2.js"
+    },
+    "./materialIconsRoundRegularCodepoints": {
+      "import": "./materialIconsRoundRegularCodepoints.js",
+      "require": "./materialIconsRoundRegularCodepoints.cjs",
+      "default": "./materialIconsRoundRegularCodepoints.js"
+    },
+    "./materialIconsRoundRegularLigatures": {
+      "import": "./materialIconsRoundRegularLigatures.js",
+      "require": "./materialIconsRoundRegularLigatures.cjs",
+      "default": "./materialIconsRoundRegularLigatures.js"
+    },
+    "./materialIconsRoundRegularOtf": {
+      "import": "./materialIconsRoundRegularOtf.js",
+      "require": "./materialIconsRoundRegularOtf.cjs",
+      "default": "./materialIconsRoundRegularOtf.js"
+    },
+    "./materialIconsRoundRegularWoff": {
+      "import": "./materialIconsRoundRegularWoff.js",
+      "require": "./materialIconsRoundRegularWoff.cjs",
+      "default": "./materialIconsRoundRegularWoff.js"
+    },
+    "./materialIconsRoundRegularWoff2": {
+      "import": "./materialIconsRoundRegularWoff2.js",
+      "require": "./materialIconsRoundRegularWoff2.cjs",
+      "default": "./materialIconsRoundRegularWoff2.js"
+    },
+    "./materialIconsSharpRegularCodepoints": {
+      "import": "./materialIconsSharpRegularCodepoints.js",
+      "require": "./materialIconsSharpRegularCodepoints.cjs",
+      "default": "./materialIconsSharpRegularCodepoints.js"
+    },
+    "./materialIconsSharpRegularLigatures": {
+      "import": "./materialIconsSharpRegularLigatures.js",
+      "require": "./materialIconsSharpRegularLigatures.cjs",
+      "default": "./materialIconsSharpRegularLigatures.js"
+    },
+    "./materialIconsSharpRegularOtf": {
+      "import": "./materialIconsSharpRegularOtf.js",
+      "require": "./materialIconsSharpRegularOtf.cjs",
+      "default": "./materialIconsSharpRegularOtf.js"
+    },
+    "./materialIconsSharpRegularWoff": {
+      "import": "./materialIconsSharpRegularWoff.js",
+      "require": "./materialIconsSharpRegularWoff.cjs",
+      "default": "./materialIconsSharpRegularWoff.js"
+    },
+    "./materialIconsSharpRegularWoff2": {
+      "import": "./materialIconsSharpRegularWoff2.js",
+      "require": "./materialIconsSharpRegularWoff2.cjs",
+      "default": "./materialIconsSharpRegularWoff2.js"
+    },
+    "./materialIconsTwoToneRegularCodepoints": {
+      "import": "./materialIconsTwoToneRegularCodepoints.js",
+      "require": "./materialIconsTwoToneRegularCodepoints.cjs",
+      "default": "./materialIconsTwoToneRegularCodepoints.js"
+    },
+    "./materialIconsTwoToneRegularLigatures": {
+      "import": "./materialIconsTwoToneRegularLigatures.js",
+      "require": "./materialIconsTwoToneRegularLigatures.cjs",
+      "default": "./materialIconsTwoToneRegularLigatures.js"
+    },
+    "./materialIconsTwoToneRegularOtf": {
+      "import": "./materialIconsTwoToneRegularOtf.js",
+      "require": "./materialIconsTwoToneRegularOtf.cjs",
+      "default": "./materialIconsTwoToneRegularOtf.js"
+    },
+    "./materialIconsTwoToneRegularWoff": {
+      "import": "./materialIconsTwoToneRegularWoff.js",
+      "require": "./materialIconsTwoToneRegularWoff.cjs",
+      "default": "./materialIconsTwoToneRegularWoff.js"
+    },
+    "./materialIconsTwoToneRegularWoff2": {
+      "import": "./materialIconsTwoToneRegularWoff2.js",
+      "require": "./materialIconsTwoToneRegularWoff2.cjs",
+      "default": "./materialIconsTwoToneRegularWoff2.js"
     }
   },
   "main": "./index.cjs",
@@ -82,26 +157,33 @@
     "index.js"
   ],
   "scripts": {
-    "build": "run-s clean build:* format",
-    "build:docker-build": "docker build -t material-design-icons .",
-    "build:docker-run": "docker run --rm -v $PWD:/material-design-icons material-design-icons",
+    "build": "run-s clean build:* test format",
     "build:build-js": "node --loader ts-node/esm ./build.ts",
-    "clean": "del codepoints font ligatures",
+    "clean": "del \"materialIcons*\" \"MaterialIcons*\" \"index.{js,cjs,d.ts}\"",
     "format": "run-s format:*",
     "format:sort-package-json": "sort-package-json",
     "format:prettier": "prettier --write .",
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --no-cache"
   },
   "prettier": {
     "printWidth": 120,
     "trailingComma": "all"
   },
   "jest": {
-    "preset": "ts-jest/presets/js-with-ts-esm"
+    "globals": {
+      "ts-jest": {
+        "useESM": true
+      }
+    },
+    "preset": "ts-jest/presets/default-esm"
   },
   "devDependencies": {
+    "@types/download": "^8.0.1",
     "@types/node": "^16.3.3",
+    "change-case": "^4.1.2",
     "del-cli": "^4.0.1",
+    "download": "^8.0.0",
+    "fontverter": "^2.0.0",
     "jest": "^27.0.6",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.3.2",
