@@ -1,6 +1,6 @@
 {
   "name": "@mo36924/material-design-icons",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "google/material-design-icons",
   "keywords": [],
   "homepage": "https://github.com/mo36924/material-design-icons#readme",
@@ -148,14 +148,6 @@
   },
   "main": "./index.cjs",
   "module": "./index.js",
-  "files": [
-    "codepoints",
-    "font",
-    "ligatures",
-    "index.cjs",
-    "index.d.ts",
-    "index.js"
-  ],
   "scripts": {
     "build": "run-s clean build:* test format",
     "build:build-js": "node --loader ts-node/esm ./build.ts",
